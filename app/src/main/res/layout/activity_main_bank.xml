@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:onClick="queryBankdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查询银行数据信息 "/>
+    <Button
+        android:onClick="addBankdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加银行数据库"
+        />
+    <Button
+        android:onClick="deleteBankdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="删除银行数据信息 "/>
+    <Button
+        android:onClick="updateBankdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="修改银行数据库"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <Button
+        android:onClick="return3"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回上一层界面"/>
+    <Button
+        android:id="@+id/button1"
+        android:layout_alignParentRight="true"
+        android:onClick="SelectSMess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="选择短信"
+        />
+        <Button
+            android:onClick="tomessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="操作短信"
+            />
+
+    </LinearLayout>
+    <EditText
+
+        android:id="@+id/et_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lines="8"
+        android:inputType="textImeMultiLine"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:onClick="toContact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="读取联系人界面"
+            />
+        <Button
+            android:onClick="toProperty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="属性动画"
+            />
+        <Button
+            android:onClick="toFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fragment"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:onClick="toNotification"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="信息提示"
+            />
+        <Button
+            android:onClick="toDate"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="日期"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
